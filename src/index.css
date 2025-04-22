@@ -41,7 +41,19 @@
     cursor: pointer;
   }
 
-  img {
+  .logotype {
     width: 100px;
     height: auto;
+  }
+
+  @media screen and (max-width: 490px) {
+        .header {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logotype {
+            margin: 1rem;
+        }
   }
