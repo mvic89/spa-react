@@ -1,6 +1,8 @@
+import Footer from "../../components/Footer"
+
 const Consoles = () => {
     return (
-        <div>Consoles Page</div>
+        <Footer/>
     )
 }
 

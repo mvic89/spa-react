@@ -1,6 +1,8 @@
+import Footer from "../../components/Footer"
+
 const Games = () => {
     return (
-        <div>Games Page</div>
+        <Footer/>
     )
 }
 

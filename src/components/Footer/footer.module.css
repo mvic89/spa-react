@@ -1,0 +1,31 @@
+.footerContainer {
+    width: 100%;
+    
+    /* max-width: 1200px; */
+    background-color: #333;
+    margin: 0 auto;
+    margin-top: auto;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom p {
+    color: #fff;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footerLinks {
+    gap: 0.5rem;
+}
+.socialIcons {
+    fill: #fff;
+}
+
