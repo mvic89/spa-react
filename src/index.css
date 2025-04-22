@@ -18,5 +18,18 @@
     flex-direction: column;
   }
   
-  
-  
+  .nav {
+    background-color: #333;
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav li {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    list-style-type: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
