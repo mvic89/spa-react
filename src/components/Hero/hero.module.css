@@ -1,0 +1,14 @@
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media screen and (max-width: 490px) {
+    .heroContainer {
+        font-size: 1rem;
+    }
+}
