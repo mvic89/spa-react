@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
         <Hero/>
-        <MainContent textTitle='Sega Megadrive' paragraphText='This is a page dedicated to one of my favorite consoles growing up as a kid. It contains some background history about the SEGA Megadrive as well as a list of 10 bad ass games that no one should have missed out of.'/>
+        {/* <MainContent textTitle='Sega Megadrive' paragraphText='This is a page dedicated to one of my favorite consoles growing up as a kid. It contains some background history about the SEGA Megadrive as well as a list of 10 bad ass games that no one should have missed out of.'/> */}
         <Footer/>
         </>
     )
