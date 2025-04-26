@@ -1,12 +1,22 @@
 .mainContainer {
+
     display: flex;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 2rem;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+
+    /* width: 100%; */
+    /* height: auto; */
 }
 
 .contentImage {
-    width: 40%;
-    height: auto;
+    width: 60%;
 }
+
+p {
+    width: 60%;
+}
+
+/* 
+@media screen and (max-width: 680px ) {
+    
+} */

@@ -1,15 +1,27 @@
-.heroContainer {
+.divContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5rem;
     font-weight: 700;
-    text-align: center;
-    max-width: 1200px;
+
+    margin: 4rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 @media screen and (max-width: 490px) {
-    .heroContainer {
-        font-size: 1rem;
+    .divContainer {
+        font-size: 0.75rem;
     }
 }
