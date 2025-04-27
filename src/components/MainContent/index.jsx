@@ -4,7 +4,9 @@ import { getImageUrl } from '../../utils/functions'
 const MainContent = ({paragraphText}) => {
     return (
         <div className={styles.mainContainer}>
-            <img className={styles.contentImage} src={getImageUrl('megadrive.png')} />
+            <div className={styles.contentImage}>
+                <img src={getImageUrl('megadrive.png')} />
+            </div>
             <p className={styles.textStyling}>{paragraphText}</p>
         </div>
     )

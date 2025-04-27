@@ -7,21 +7,25 @@
     
 }
 
-.contentImage {
+.contentImage { 
+    display:flex;
+    justify-content: center;
+}
+
+
+.contentImage img {
     width: 60%;
     margin-bottom: 2rem;
     box-shadow: 5px 5px 8px #666b;
-
-
 }
 
 .textStyling {
-    width: 60%;
+    width: 40%;
 }
 
 
 @media screen and (max-width: 490px ) {
-    .contentImage {
+    .contentImage img {
         width: 80%;
     }
 
