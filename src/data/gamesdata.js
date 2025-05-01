@@ -7,7 +7,9 @@ const GamesData = [
         genre: 'Genre: Action, Platformer',
         release: 'Release Date: October 19, 1993',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'disneys-aladdin.png'
+
     },
     {
         id: "2",
@@ -17,7 +19,8 @@ const GamesData = [
         genre: 'Genre: Action, Platformer',
         release: 'Realease Date: August 2, 1994',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'earthworm-jim.png'
     },
     {   id: "3",
         title: `Cool Spot`,
@@ -26,7 +29,8 @@ const GamesData = [
         genre: 'Genre: Action, Platformer',
         release: 'Realease Date: May, 1993',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'cool-spot.png'
     },
     {   id: "4",
         title: `Thunder Force IV`,
@@ -35,7 +39,8 @@ const GamesData = [
         genre: `Genre: Shoot 'Em Up`,
         release: 'Realease Date: July 24, 1992',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'thunder-force-4.png'
     },
     {
         id: "5",
@@ -45,7 +50,8 @@ const GamesData = [
         genre: `Genre: RPG (Turn-based)`,
         release: 'Realease Date: November, 1993',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'phantasy-star-4.png'
     },
     {
         id: "6",
@@ -55,7 +61,8 @@ const GamesData = [
         genre: 'Genre: Action, Platformer',
         release: 'Realease Date: September, 1994',
         players: 'Max Players: 1',
-        playmode: 'Play mode: Single Player'
+        playmode: 'Play mode: Single Player',
+        images: 'sparkster.png'
     },
     {  
         id: "7",
@@ -65,7 +72,8 @@ const GamesData = [
         genre: `Genre: Action, Beat 'em Up`,
         release: 'Realease Date: September 18, 1991',
         players: 'Max Players: 2',
-        playmode: 'Play mode: Co-op (Simultaneous)'
+        playmode: 'Play mode: Co-op (Simultaneous)',
+        images: 'streets-of-rage.png'
     },
     {
         id: "8",
@@ -75,7 +83,8 @@ const GamesData = [
         genre: `Genre: Action, Action, Platformer`,
         release: 'Realease Date: November 21, 1992',
         players: 'Max Players: 2',
-        playmode: 'Play mode: Versus (Simultaneous)'
+        playmode: 'Play mode: Versus (Simultaneous)',
+        images: 'sonic-the-hedgehog-2.png'
     },
 ]
 
