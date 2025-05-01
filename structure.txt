@@ -13,3 +13,7 @@ GamesContent
 ---------------
 map over the games card so that we create multiple cards
 
+Games
+    GamesContent
+        GamesCard
+

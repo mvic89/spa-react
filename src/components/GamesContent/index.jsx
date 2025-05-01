@@ -1,8 +1,16 @@
+import GamesCard from '../GamesCard'
 import styles from './games-content.module.css'
+import GamesData from '../../data/gamesdata'
+
 
 const GamesContent = () => {
+
     return (
-        <div>Games Content</div>
+        <div>
+            {GamesData.map((games) => (
+                <GamesCard key={games.id} games={games}/>
+            ))}
+        </div>
     )
 }
 
