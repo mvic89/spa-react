@@ -1,0 +1,15 @@
+GamesContent
+    Container Div
+        GamesCard
+            title
+            image
+            description (add that)
+            developer
+            genre
+            release
+            players
+            playmode
+
+---------------
+map over the games card so that we create multiple cards
+
