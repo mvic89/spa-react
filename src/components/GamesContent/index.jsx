@@ -6,7 +6,7 @@ import GamesData from '../../data/gamesdata'
 const GamesContent = () => {
 
     return (
-        <div>
+        <div className={styles.gamesContent}>
             {GamesData.map((games) => (
                 <GamesCard key={games.id} games={games}/>
             ))}
