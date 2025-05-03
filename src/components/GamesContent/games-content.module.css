@@ -1,5 +1,14 @@
-.gamesContent {
+/* .gamesContent {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+} */
+
+.gamesContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
 }
+
