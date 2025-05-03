@@ -1,0 +1,15 @@
+.consoleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.consoleImage {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.consoleImage img {
+    width: 100%;
+    height: auto;
+}
