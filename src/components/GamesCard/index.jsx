@@ -10,20 +10,27 @@ const GamesCard = ({games}) => {
 
     let description = games.description;
 
-    if (!showFullDescription ) {
-        description = description.substring(0, 90) + '...';
-    }
-
-
     return (
         <div className={styles.gamesDiv}> 
             <img className={styles.gamesImg} src={getImageUrl(games.images)} alt={`${games.images}`} />
             <div className={styles.cardContent}>
                 <h3>{games.title}</h3>
                 <div>
-                    <p>{description}</p>
+                    {showFullDescription ? (
+                        <>
+                        <p>{description}</p>
+                        <br/>
+                        <p>{games.developer}</p>
+                        <p>{games.genre}</p>
+                        <p>{games.release}</p>
+                        <p>{games.players}</p>
+                        <p>{games.playmode}</p>
+                        </>
+                    ) : (
+                        <p>{description = description.substring(0, 90) + '...'}</p>
+                    )}
                 </div>
-                <button onClick={ () => setShowFullDescription((prevState) => !prevState)}>{showFullDescription ? 'Less' : 'More'}</button>
+                <button className={styles.cardBtn} onClick={ () => setShowFullDescription((prevState) => !prevState)}>{showFullDescription ? 'Less' : 'More'}</button>
             </div>
         </div>
     )
