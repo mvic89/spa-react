@@ -4,9 +4,9 @@ import styles from './consoles-content.module.css'
 const ConsoleContent = ({conHead,conPar1,conPar2,conPar3}) => {
     return (
         <div className={styles.consoleContainer}>
-            <div className={styles.consoleImage}>
-                <img src={getImageUrl('sega-megadrive.jpg')} alt="Sega Megadrive"/>
-                <img src={getImageUrl('sega-genesis.jpg')} alt="Sega Genesis"/>
+            <div className={styles.consoleImageDiv}>
+                <img className={styles.consoleImages}  src={getImageUrl('sega-megadrive.jpg')} alt="Sega Megadrive"/>
+                <img className={styles.consoleImages} src={getImageUrl('sega-genesis.jpg')} alt="Sega Genesis"/>
             </div>
             <div className={styles.consoleText}>
                 <h1>{conHead}</h1>
